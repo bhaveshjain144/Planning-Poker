@@ -1,0 +1,450 @@
+
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+a:focus, input:focus, button:focus, select:focus, textarea:focus {
+  outline: 2px solid #E17509 !important;
+  box-shadow: 0 0 4px 4px #E17509 !important;
+}
+div.off#name{
+  display: none;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* .inputDiv{
+  margin-left:16.75px  !important;
+  margin-right:16.75px  !important;
+  }
+
+  button.chatButton{
+    margin-right:16.75px  !important;
+  } */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+
+}
+.visuallyhidden {
+  position: absolute;
+  left: 0;
+  top: -500px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.cardK{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.notBlur{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+}
+.main-content{
+ display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+.storyDes{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0;
+  flex-grow: 1;
+  padding-bottom: 20px;
+}
+.Jira-button{
+    border-radius: 8px;
+    padding-inline: 20px;
+    padding-top: 9px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    display: flex;
+    font: normal normal bold 16px Montserrat;
+    letter-spacing: 0px;
+    opacity: 1;
+    /* border: 1px solid #c10e21; */
+    background-color: #c10e21;
+    font-size: 16px;
+    color: white
+}
+@media screen and (max-width:992px){
+.outerLogin{
+  max-width: 467.71px;
+  width: 90%;
+}
+div.selectCreate{
+  width: 100%;
+  align-self: auto;
+  margin: 10px 0 10px 0 !important;
+}
+  div.postioning{
+    display: flex;
+    margin-left: 0px !important;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+
+  }
+  #Pointing-Poker-Text{
+    width: 50%;
+  }
+  .content#contents{
+    display: flex;
+    flex-direction: column !important;
+    margin-top: 0;
+    height:auto !important;
+    /* width: fit-content !important; */
+    
+    width: 100%;
+
+    align-items: center;
+    background-repeat: repeat-x;
+    background-size: cover;
+    margin-bottom: 0px;
+    padding: 10px;
+  }
+ 
+  .cards{
+    margin: 0 !important;
+    float: left;
+    width: 100% !important;
+    overflow: hidden;
+  }
+  .CardH, .cardV{
+    display: none !important;
+   margin: 0 !important;
+  }
+  .title{
+    display: flex;
+    width: auto !important;
+    margin-top: 10px;
+  }
+  #cardVertical, #cardHorizontal{
+    display: none !important;
+  }
+
+  p#loginHead,input.Input1,input.Input2,select#selectOpt.opt{
+    margin:10px 0 10px 0 !important;
+    
+    font-size: 18px;
+    
+  }
+  #loginDivBlock.Login{
+    margin-top: 0;
+    width: 100%;
+    height:321px
+  }
+  button.loginButton{
+   
+    margin-left: 0px;
+  }
+  .atag{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-decoration: none;
+    width: 100%;
+    border: none;
+  }
+  .atag:hover{
+    text-decoration: none;
+  }
+  input[type=text].Input1{
+    width:100%;
+  }
+  input[type=text].Input2{
+    width:100%;
+   
+  }
+  
+  #selectOpt.opt{
+    width:100%;
+    margin-left: 0px;
+  }
+ 
+
+  button.loginButton{
+    margin:10px 0 0 0 !important;
+  }
+
+  
+}
+
+@media screen and (min-width: 993px) and (max-width: 1332px){
+
+.outerLogin {
+  display: flex;
+  align-items: center;
+  margin-top: 130px;
+}
+
+}
+@media screen and (min-width: 993px) and (max-width: 1050px){
+  div.postioning{
+    margin-left: 31px;
+  }
+  
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+  #loginDivBlock{
+    padding-inline:30px ;
+  }
+  div.site-logo{
+    margin: 0;
+    padding-inline:30px ;
+  }
+  .main-content{
+    margin: 0;
+    padding-inline:30px ;
+  }
+}
+  @media screen and (min-width: 551px) and (max-width: 767px){
+    #loginDivBlock{
+      padding-inline:20px ;
+    }
+    div.site-logo{
+      margin: 0;
+      padding-inline:20px ;
+    }
+    .main-content{
+      margin: 0;
+      padding-inline:20px ;
+    }
+  }
+    @media screen and (min-width: 320px) and (max-width: 550px){
+      #loginDivBlock{
+        padding-inline:15px ;
+      }
+      div.site-logo{
+        margin: 0;
+        padding-inline:15px ;
+      }
+      .main-content{
+        margin: 0;
+        padding-inline:15px ;
+      }
+      div.Cards{
+        padding: 0 !important;
+        margin-bottom: 0 !important;
+        width:172px;
+      }
+      button.cardBox{
+        width:67px;
+        height: 106px;
+      }
+    }
+
+@media screen and (max-width: 1332px)
+{
+  .CardH, .cardV, #cardVertical{
+    display: none !important;
+   
+  }
+ 
+}
+@media screen and (max-width: 992px)
+{
+  .navbar-collapse{
+    justify-content: center !important;
+  }
+ 
+  .Blur{
+    display:flex;
+    flex-direction: column;
+    z-index: -20;
+    
+  }
+  
+ 
+}
+@media screen and (max-width: 768px)
+{
+  div.theTable{
+    height:auto
+  }
+  .Blur{
+    display:flex;
+    flex-direction: column;
+    z-index: -20;
+  }
+  /* .Cards{
+    display: flex;
+    height: 30% ;
+    width:100%;
+    flex-wrap:wrap;
+    flex-direction: column;
+    z-index: 1 !important;
+  } */
+  .Cards{
+    
+    /* max-width: 500px !important; */
+    z-index: 1 !important;
+    align-self: center !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .Hide{
+    z-index:2 !important;
+  }
+  .cardK{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+   
+    
+  }
+
+}
+
+.head2{
+  display: flex ;
+  flex-direction: row;
+  padding: 0px;
+}
+@media screen and (max-width: 1117px)
+{
+  /* .Title{
+    flex-direction: column !important;
+    align-items:center;
+    padding-top: 30px;
+  } */
+  .Share{
+    margin-right: 0px !important;
+  }
+  .ChatInner{
+    height:100% !important;
+  }
+}
+@media screen and (max-width: 992px)
+{
+  .Title{
+    flex-direction: column;
+    align-items:center
+  }
+}
+@media screen and (max-width: 712px)
+{
+ 
+  
+  .Cards{
+   
+    /* max-width: 500px !important; */
+    align-self: center;
+  }
+ 
+  
+  .Blur{
+    display:flex;
+    flex-direction: column;
+    z-index: -20;
+  }
+  .Title{
+    flex-direction: column;
+    align-items:center
+  }
+  .User{
+    justify-content:flex-start !important;
+    align-items:flex-start !important;
+    display: flex;
+    
+    margin-top: 0px !important;
+  }
+  .UserName{
+    margin-top:0px !important;
+    margin-right:0px !important;
+  }
+  .invitebutton{
+    margin-top: 0px !important;
+  }
+  .head2{
+    flex-direction: column !important;
+  }
+  .Share{
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+  }
+ .cardBox{
+   z-index: 20;
+ }
+  .textArea{
+    width:300px !important;
+  }
+}
+
+/* Media query for below  550 fixed*/
+@media screen and (max-width:550px){
+  .Cards{
+
+    /* max-width: 300px !important; */
+    align-self: center;
+  }
+  .storyDes{
+   margin-right: 15px;
+    margin-left: 15px;
+  }
+  img.Random-img{
+    width: 230px;
+    margin-top: 0;
+  }
+  .postionings{
+    margin-left: 0 !important;
+    padding-left: 0!important;
+  }
+  div.Jira-link{
+    width:auto;
+    max-width: 300px;
+  }
+.ChatInner{
+  height: 100% !important;
+}
+  
+  .cards{
+    margin: 30px;
+  }
+  .postioning{
+    margin-left: 0px !important;
+  }
+  .title{
+    margin-top: 10px;
+  }
+
+  
+  div.Cards{
+    display: flex;
+    align-self: center;
+    justify-content: flex-start;
+    align-items: center;
+   
+    overflow-x: scroll;
+    padding: 20px;
+    margin-bottom: 30px;
+    
+  }
+  .cardK{
+    display: flex;
+    flex-wrap:nowrap;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+}

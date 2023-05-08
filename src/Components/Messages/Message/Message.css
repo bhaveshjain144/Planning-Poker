@@ -1,0 +1,57 @@
+.messageBox {
+    background: #F8F8F8;
+    border-radius: 4px; 
+    padding: 5px 20px;
+    border: 1px solid #e3e3e3;
+    display: block;
+    max-width: 100%;
+  }
+  
+  .messageText {
+    width: 100%;
+    letter-spacing: 0;
+    float: left;
+    font-size: 14px;
+    font-family: Montserrat;
+    word-wrap: break-word;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  
+  
+  .messageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1% 5%;
+  }
+  
+  .sentText {
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    font-family: Montserrat;
+    color: #00BACB;
+    letter-spacing: 0.3px;
+    padding-top: 3%;
+    
+  }
+  
+  
+  
+  @media (min-width: 400px) and (max-width: 589px) {
+    .messageBox {
+      padding: 4px;
+      border-radius: 10%;
+      margin-bottom: 1px;
+    }
+  }
+  @media (min-width: 360px) and (max-width: 399px) {
+    .messageBox {
+      padding: 4px;
+      border-radius: 10%;
+      margin-bottom: 1px;
+    }
+  }
+  

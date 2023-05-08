@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.outerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -110px;
+  background-color: white;
+  width: 341px;
+  float: right;
+  overflow: visible;
+  padding: 3px;
+  height: 90vh;
+  margin-bottom: -140px;
+  z-index: 90;
+  margin-right: 7px;
+}
+
+.ChatInner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 900;
+  border-radius: 8px;
+  height: 100%;
+  padding: 0px !important;
+  background-color: white;
+}
+@media (min-width: 400px) and (max-width: 589px) {
+  .container {
+    height: 65%;
+  }
+}
+@media (min-width: 360px) and (max-width: 399px) {
+  .container {
+    height: 80%;
+  }
+}
+
+/* #ChatsIn{
+    position: absolute;
+    right: -900px;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 1s;
+    animation: slide 0.5s forwards;
+    animation-delay: 1s;
+}
+
+@-webkit-keyframes slide {
+    100% { right: 0; }
+}
+
+@keyframes slide {
+    100% { right: 0; }
+}
+
+#ChatsOut{
+  position: absolute;
+    right: 0px;
+    -webkit-animation: slideout 0.5s forwards;
+    -webkit-animation-delay: 1s;
+    animation: slideout 0.5s forwards;
+    animation-delay: 1s;
+}
+@-webkit-keyframes slideout {
+  100% { right: -900; }
+}
+
+@keyframes slideout {
+  100% { right: -900; }
+} */
+
+/* .overlay{
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+} */

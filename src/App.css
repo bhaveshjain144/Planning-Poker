@@ -1,0 +1,23 @@
+/* Background */
+body{
+  background: url('./assets/Background/Group 5993.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Montserrat ;
+  font-weight: bold;
+  
+}
+
+@media screen and (max-width: 500px) {
+  body{
+    background: url('./assets/Background/Group 5993@2x.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Montserrat ;
+    font-weight: bold;
+  }
+}

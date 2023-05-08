@@ -1,0 +1,205 @@
+#contents {
+    
+    background-color: #343A40;
+    border-top: 12px solid #C10E21;
+    border-bottom: 12px solid #C10E21;
+    background-repeat: repeat-x;
+    background-size: cover;
+    overflow: visible !important;
+    height: 230px;
+    display: flex;
+    margin-top:110px ;
+
+}
+.atag:focus{
+    outline: none!important;
+    box-shadow: none !important;
+}
+#react-select-3-placeholder{
+    background-color: white;
+}
+#react-select-3-input:focus{
+   outline: none !important;
+    box-shadow: none !important;
+}
+div.selectCreate:focus{
+    outline: 2px solid #E17509 !important;
+  box-shadow: 0 0 4px 4px #E17509 !important;
+}
+div.selectCreate{
+    outline: none !important;
+    box-shadow: none!important;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.postioning{
+    
+    
+    margin-left: 51px;
+    height:200px;
+    width: 456px;
+    margin-top: -10px;
+
+    
+}
+
+ .title{   
+    width: 50%;
+} 
+
+
+/* #Pointing-Poker-Dice{
+    position:absolute;
+    right: 10px;  
+    bottom: -20px; */
+
+  input[type=text], select {
+    width: 300px;
+    display: flex;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+    align-self: center;
+    width: 404px;
+    height: 40px;
+    margin: auto;     
+  }
+
+  #loginDivBlock {
+      background-color: white;
+      
+      width: 467.71px;
+      box-shadow: 0px 3px 6px #00000029;
+      border: 2px solid #C10E21;
+      border-radius: 22px;
+      float: right;
+      display: flex;
+      flex-direction: column ;   
+      margin-top: -20px;
+       /* height:321.28px;  */
+      z-index: 900;
+  }
+
+
+ #loginHead {
+     font-family: Montserrat;
+     font-size : 26px;
+     color:#C10E21;
+     margin-top: 27.64px;
+     font-weight: 1000;
+     margin-left: 27px;
+ }
+  
+ 
+  .loginButton{
+      background-color: #C10E21;
+      font-size: 16px;
+      color:white;
+      width:121px;
+      height:41px;
+      border-radius: 21px;
+      font-family: Montserrat;
+      margin-left:288px;  
+      margin-bottom: 26.64px !important;
+      margin-top: 10px;
+      border: none;
+  }
+  
+  .mainContent{
+      display: flex;
+      height: max-content;
+      flex-direction: column;
+  }
+
+  .cards{
+      width: 467.71px;
+      display: flex;
+      margin-top: -200px; 
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+     
+      
+  }
+ 
+
+.cardT{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 56.31px;
+
+}
+.cardB{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 29.31px;
+  }
+.CardH{
+    display:flex;
+    justify-content: space-between;
+    width: 368.8px;
+    
+}
+.cardV{
+    margin-left: 38.97px;
+    margin-right: 38.97px;
+}
+
+.Input1{
+    margin-bottom: 18px !important;
+    margin-top : 16px !important;
+    padding:10px;
+}
+.Input2{
+    margin-bottom: 20px !important;
+    padding:10px;
+}
+
+/* Cards Vertical */
+.outerLogin{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+   
+}
+#cardVertical{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 218px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+#selectOpt{
+    
+    width: 408px;
+    height:40px !important;
+    padding:10px;
+    margin-bottom: 30px;
+}
+.atag{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: auto;
+    text-decoration: none;
+}
+.atag:hover{
+    text-decoration: none;
+}
+.selectCreate{
+ width: 90%;
+ align-self: center;
+ justify-content: center;
+ align-items: center;
+ /* padding: auto; */
+ height: 40px !important;
+ display: flex;
+ padding: 0 !important;
+ margin: 0;
+ margin-bottom: 10px;
+}

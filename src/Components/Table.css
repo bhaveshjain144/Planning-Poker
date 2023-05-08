@@ -1,0 +1,84 @@
+.theTable{
+    
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+   padding-bottom: 10px;
+}
+.placedCards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.placedcard{
+     height:70px;
+     width:50px;
+     background-color: #A7D9D8;
+     border:1px solid #0D7882;
+     border-radius: 4px;
+     opacity: 1;
+     cursor: pointer;
+     margin: 8px;
+     padding: 10px;
+     display:flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    
+}
+.cardplaced{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.backcard{
+    height:62px;
+    width:44px;
+    background-color: white;
+    border: 1px solid #00BACD;
+    border-radius: 4px;
+    opacity: 1;
+    cursor: pointer;
+    margin:20px;
+}
+
+
+
+.result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.outcome{
+    color:#c10e21 ;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+.user-name{
+    text-align: center;
+    display: flex;
+    font-size: 12px;
+    word-break: break-all;
+    justify-content: center;
+}
+.value{
+   font-size: 18px;
+    display: flex;
+}
+
+.card-total{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70px;
+}

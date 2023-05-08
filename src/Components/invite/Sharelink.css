@@ -1,0 +1,48 @@
+.pop {
+  display: flex;
+  resize: none;
+  border-color: #ccc;
+  border-radius: 4px;
+  font-size: 0.5rem;
+  width: 15rem;
+  color: rgb(0, 0, 0);
+  height: auto;
+  
+}
+.pop:focus{
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.invitebutton {
+  background-color: white;
+  color: #c10e21;
+  
+  display: block;
+  padding: 5px;
+  border: 1px solid #c10e21;
+  border-radius: 8px;
+  opacity: 1;
+  font-size: 16px;
+  padding-left: 33px;
+  padding-right: 33px;
+  font-weight: bold ;
+}
+
+
+[role=tooltip].popup-content {
+  display: block;
+    /* width: 10%; */
+    box-shadow: 0 0 3px rgb(0 0 0 / 16%);
+    border-radius: 5px;
+    height: max-content;
+    width: fit-content;
+    cursor:pointer;
+    
+}
+
+.copyText{
+  display: flex;
+  justify-content: center;
+}
+

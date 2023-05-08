@@ -1,0 +1,44 @@
+/* .img{
+    background-image: url(../assets/Logo/HB-Logo.png); 
+  }
+  @media 
+    (-webkit-min-device-pixel-ratio: 2), 
+    (min-resolution: 192dpi) { 
+    .img {
+      background-image: url(../assets/Logo/HB-Logo@2x.png);
+    }
+} */
+
+/* Logo CSS */
+.site-logo{
+
+    margin: 28px 0px 0px 30px;
+    }
+
+
+
+/* Seconnd page */
+
+
+  .rooms{
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: center;
+  }
+
+  .Random-img{
+   /* width:180.8px;
+    height:100px;*/
+    margin-top:25px;
+  }
+
+  .Random-imgs{
+   
+    margin-top:25px;
+  }
+  
+ .postionings{
+ padding-left: 30px;
+  
+ }

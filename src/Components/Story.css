@@ -1,0 +1,65 @@
+.story {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.send {
+  border-radius: 8px;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-left: 5px;
+  display: flex;
+  font: normal normal bold 16px Montserrat;
+  letter-spacing: 0px;
+  color: #c10e21;
+  opacity: 1;
+  background-color: #ffffff;
+  padding: 10px;
+  border: 1px solid #c10e21;
+}
+.send:hover{
+  background-color: #9D0B1B;
+  color: white;
+}
+.form-story {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.textArea {
+  border-color: #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  width: 500px;
+  height: 160px;
+  
+}
+
+.sendButtons {
+  border-radius: 8px;
+  padding-inline: 20px;
+  padding-top: 9px;
+  padding-bottom: 10px;
+  margin-left: 5px;
+  margin-top: 16px;
+  display: flex;
+  font: normal normal bold 16px Montserrat;
+  letter-spacing: 0px;
+  opacity: 1;
+ 
+  border: 1px solid #c10e21;
+  background-color: #c10e21;
+  font-size: 16px;
+  color: white;
+
+  
+}
+.sendButtons:hover{
+  background-color: #9D0B1B;
+  color: white;
+}
+

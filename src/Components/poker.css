@@ -1,0 +1,294 @@
+header{
+    width: 100%;
+    display: inline-block;
+}
+
+.hbLogo{
+
+    margin-left: 30px;
+}
+.unBlurred{
+    display: flex;
+   
+}
+.noname-form{
+   
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+    
+   background-color: white;
+   
+    z-index: 300;
+    border-radius: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 50px 30px; */
+}
+.noname-form input[type=text]{
+    width:80%;
+    border-radius: 4px;
+    margin: 0;
+    width: 100%;
+    padding-inline: 16px;
+}
+.name-button{
+    background-color: #C10E21;
+    font-size: 16px;
+    color: white;
+    width: 121px;
+    height: 41px;
+    border-radius: 21px;
+    margin-top: 24px;
+    font-family: Montserrat;
+    border: 1px solid #C10E21;
+  
+}
+#name{
+    display: flex;
+    z-index: 20;
+    background-color: white;
+    
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.56);
+        overflow: auto;
+        z-index: 450;
+}
+.overlay-name{
+    
+    display: flex;
+    width:500px;
+    z-index: 20;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: white;
+}
+.vlBar{
+
+    border-left: 2px solid #C10E21;
+    margin: 8px;
+    height: 80px;
+    display: inline-block;
+    margin-top:25px ;
+
+}
+.navbar-collapse{
+    /* justify-content: center; */
+    justify-content: flex-end;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+.Title{
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    align-self: center;
+}
+.nav-item{
+    display: flex;
+    margin: 10px;
+    
+}
+.navbar-toggler{
+    position: sticky;
+    
+}
+.cardBox{
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #00BACD;
+    border-radius: 4px;
+    opacity: 1;
+    align-items: center;
+    font-weight: bold;
+   display: flex;
+    width: 60px;
+    height: 84px;
+    background-color: white;
+   margin:12px;
+    cursor: pointer;
+    z-index: 1;
+}
+.Cards{
+    display: flex;
+    
+    justify-content: center;
+    margin-bottom: 10px;
+    width: 100%;
+    
+    flex-wrap: wrap;
+}
+.Hide{
+    z-index: 2;
+}
+    
+
+.TransitionButton{
+    height: 30px;
+}
+
+.values{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.BackgroundBlur{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width:100%;
+    z-index: -900;
+    height:100vh;
+    margin: -100vh; */
+}
+
+
+.User{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+}
+
+.UserName{
+    font-family:Montserrat;
+    font-size: 16px;
+    color:  black;
+    font-weight: bold;
+    
+    text-transform: uppercase;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+/* Coffee */
+.fa-coffee{
+    color:white;
+}
+.connect{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 300;
+}
+.disconnect{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 300;
+}
+.connect button{
+    background-color: rgb(0, 252, 42);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 5px;
+    padding: 10px;
+    
+    
+}
+.Coffee-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    font-size: 22px;
+    border: none;
+    border-radius: 50%;
+    padding-bottom: 20px  !important;
+}
+
+.disconnect button{
+    background-color: #C10E21;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 5px;
+    padding: 10px;
+}
+/* Jira Link */
+.Jira-text{
+    color: #C10E21;
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 1em;
+    word-break: keep-all;
+}
+.Jira-text:hover{
+    color: #C10E21;
+}
+.dispnone{
+    display: none;
+}
+.Jira-link{
+    display: flex;
+    width:50%;
+    max-width: 497px;
+    
+    height:auto;
+    margin-bottom: 10px;
+    align-items: baseline;
+    justify-content: center;
+}
+.Jira-outer-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+input[type=text].Jira-Text{
+    width: 80%;
+    margin: 0;
+    padding-inline: 14px;
+    border-radius: 8px;
+}
+.fa-pencil{
+   color: #C10E21;
+}
+.fa-pencil:hover{
+    color: white;
+    background-color: #C10E21;
+    border-radius: 8px;
+    padding: 2px;
+}
+.LinkChange{
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 !important;
+}
+
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .blurred-container {
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+    }
+  }
+  
+  /* slightly transparent fallback for Firefox (not supporting backdrop-filter) */
+  @supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+    .blurred-container {
+      background-color: rgba(255, 255, 255, .8);
+    }
+  }
+  
+  
+  
+  
+  
